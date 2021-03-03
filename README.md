@@ -105,13 +105,13 @@ const series = targetContryKeys.map((key) => {
 	
 ```
 
-<big>**1.** </big> `targetContryKeys` : `map`을 사용하여 6대륙의 영문/한글명이 담긴 배열 `targetContinents`를   `key`값만 모은 새로운 배열을 담는다.
-<big>**2.** </big> `series` : `targetContryKeys`를 `map`을 사용해 `name`과 `data`를 반환한다.
-<small> `key값 = [ '유럽', '아프리카', '오세아니아', '아시아', '중동', '아메리카' ]` </small>
+<big>**1.** </big> `targetContryKeys` : `map`을 사용하여 6대륙의 영문/한글명이 담긴 배열 `targetContinents`를   `key`값만 모은 새로운 배열을 담는다.<br>
+<big>**2.** </big> `series` : `targetContryKeys`를 `map`을 사용해 `name`과 `data`를 반환한다.<br>
+<small> `key값 = [ '유럽', '아프리카', '오세아니아', '아시아', '중동', '아메리카' ]` </small><br>
 
-<big>**3.**</big>  `name` : `find`를 이용해 `targetContinents`에서 `key`값과 `map`에서 현재 돌고 있는 `targetContryKeys`의 현재 `key`값이 같을 때의 한글표기명 <small>`displayName`</small>
-<big>**4.**</big> `continent` : `props`로 받은 api데이터의 `map`으로 돌고 있는 각 대륙에 속한 나라들
-<big>**5.**</big> `contries` : `continent` 객체를 배열로 저장
+<big>**3.**</big>  `name` : `find`를 이용해 `targetContinents`에서 `key`값과 `map`에서 현재 돌고 있는 `targetContryKeys`의 현재 `key`값이 같을 때의 한글표기명 <small>`displayName`</small><br>
+<big>**4.**</big> `continent` : `props`로 받은 api데이터의 `map`으로 돌고 있는 각 대륙에 속한 나라들<br>
+<big>**5.**</big> `contries` : `continent` 객체를 배열로 저장<br>
 <big>**6.**</big> `data` : 각 대륙별로 속해있는 나라들을 나누어서 `name`<small>나라명</small>, `value`<small>숫자형인 확진자수</small>를 `data`에 넣음
 
 
