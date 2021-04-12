@@ -1,4 +1,4 @@
-![HitCount](http://hits.dwyl.com/Dok6n/corona-front.svg)
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/DoK6n/corona-front)
 # 코로나 감염현황 사이트 ( 프론트 )
 
 <br>
