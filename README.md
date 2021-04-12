@@ -1,4 +1,4 @@
-
+![HitCount](http://hits.dwyl.com/Dok6n/corona-front.svg)
 # 코로나 감염현황 사이트 ( 프론트 )
 
 <br>
