@@ -133,6 +133,12 @@ const series = targetContryKeys.map((key) => {
 
 <br>
 
+### CORS
+처음 프로젝트를 시작할 때 백엔드와 프론트를 분리에서 개발하면서 프론트는 github page, 백엔드는 cafe24에서 배포를 하였는데,
+이때 두 origin의 scheme이 http와 https로 달라서 문제가 발생하였다는 것을 알게 되었고, 이후 배포할 때 react는 build하여 build 폴더를 배포 한다는 것을 알게 되었고, cafe24에서 같이 배포를 하여 해결하였습니다.
+
+<br>
+
 ### 반복문 성능 최적화
 데이터 시각화기술을 사용해보기 위해 HighCharts를 적용해보았는데,
 넣어야 할 데이터가 많을때 각 대륙별로 속해있는 국가의 데이터를 HighCharts에 데이터 형식에 맞게 바꾸어야 해서
